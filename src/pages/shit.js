@@ -9,7 +9,7 @@ const shit = () => {
   return (
     <main className={styles.main}>
     <div className='main-div'>
-        <p className='main-h1'>Fuckin Shit:</p>
+        <p className='main-h1'>Fuckin Shit</p>
         
         </div>
         <footer>
