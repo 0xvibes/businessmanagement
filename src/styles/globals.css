@@ -300,3 +300,47 @@ a {
     color-scheme: dark;
   }
 }
+
+@media (max-width: 700px) {
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-h1 {
+  font-size: xx-large;
+}
+
+.main-buttons-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-buttons {
+  font-size: xx-large;
+  width: 90vw;
+  height: 10rem;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Bebas Neue', cursive;
+  /* padding: 5rem; */
+  /* font-size: 96px; */
+  margin: 1rem;
+  border: solid 5px #000;
+  border-radius: 15px;
+  /* font-weight: bold; */
+  color: #fff;
+  background-color: #ffa1a1;
+  /* width: 50rem; */
+  height: auto;
+  cursor: pointer;
+  /* flex-basis: calc(50% - 20px); */
+  /* box-sizing: border-box; */
+}
+
+}
