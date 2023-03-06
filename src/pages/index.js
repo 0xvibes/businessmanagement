@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Footer from './components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,16 +17,49 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+      
         <div className='main-div'>
+        
         <p className='main-h1'>Your Businesses:</p>
-        <div className='main-buttons-div'>
-        <Link href="crypto">
-        <button className='main-buttons'>Crypto</button>
-        </Link>
-        <Link href="trad">
-        <button className='main-buttons'>Traditional</button>
-        </Link>
-        </div>
+          <div className='main-buttons-div'>
+            <div className='category-div'>
+              <Link href="crypto">
+              <button className='main-buttons'>Crypto</button>
+              </Link>
+              <div className='row'>
+              <p className='category-details'>Earned:</p>
+                <p className='category-input-green'>$5400</p>
+                </div>
+              <div className='row'>
+              <p className='category-details'>Spent:</p>
+                <p className='category-input-red'>$5400</p>
+                </div>
+              <div className='row'>
+              <p className='category-details'>Incoming:</p>
+                <p className='category-input-green'>$5400</p>
+                </div>
+            </div>
+
+            <div className='category-div'>
+              <Link href="trad">
+              <button className='main-buttons'>Traditional</button>
+              </Link>
+              <div className='row'>
+              <p className='category-details'>Earned:</p>
+                <p className='category-input-green'>$5400</p>
+                </div>
+              <div className='row'>
+              <p className='category-details'>Spent:</p>
+                <p className='category-input-red'>$5400</p>
+                </div>
+              <div className='row'>
+              <p className='category-details'>Incoming:</p>
+                <p className='category-input-green'>$5400</p>
+                </div>
+            </div>
+            
+          </div>
+          
         </div>
       </main>
     </>
