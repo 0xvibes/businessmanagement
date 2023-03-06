@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Footer from './components/footer'
+import Land from './components/landingpage.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
