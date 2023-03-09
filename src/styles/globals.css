@@ -114,6 +114,16 @@ a {
   /* padding-bottom: 10rem; */
 }
 
+.main-projects-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 100vh;
+}
+
 .main-trad-div {
   display: flex;
   flex-direction: column;
@@ -295,6 +305,28 @@ a {
   box-shadow: 1px 5px 10px #000000;
 }
 
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+}
+
+.square-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 15px;
+  border: 5px solid #56bed8;
+  align-self: center;
+  justify-content: center;
+  margin: 1rem;
+  background-color: #8affb7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -306,6 +338,16 @@ a {
 .main-div {
   display: flex;
   flex-direction: column;
+  height: auto;
+}
+
+.main-projects-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .main-h1 {
@@ -317,10 +359,15 @@ a {
   flex-direction: column;
 }
 
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-buttons {
   font-size: xx-large;
   width: 90vw;
-  height: 10rem;
+  height: 5rem;
   align-items: center;
   align-content: center;
   text-align: center;
