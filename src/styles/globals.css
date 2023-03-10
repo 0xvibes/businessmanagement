@@ -332,6 +332,7 @@ a {
   display: flex;
   flex-direction: row;
   margin: 0.5rem;
+  text-align: center;
 }
 
 .lp-btn {
@@ -344,6 +345,19 @@ a {
   border: solid 0.2px #000;
   font-family: 'Silkscreen', cursive;
   font-weight: bold;
+}
+
+.lp-btn-special {
+  width: 10rem;
+  height: 3rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  /* font-family: 'Fredoka One'; */
+  border-radius: 0px;
+  border: solid 2px #000;
+  font-family: 'Silkscreen', cursive;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .row {

@@ -20,7 +20,7 @@ const landingpage2 = () => {
             <Link
             href="aproject"
             >
-            <button className='lp-btn'>
+            <button className='lp-btn-special'>
                 <b>
                 Go
                 </b>
