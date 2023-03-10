@@ -8,6 +8,7 @@ const landingpage2 = () => {
     <div className='lp-main-div'>
         <div className='art-div'>
         <Image 
+        className='art'
         src={Art}
         width={700}
         height={700}
