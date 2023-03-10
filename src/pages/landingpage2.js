@@ -5,6 +5,7 @@ import Art from '../images/ocncrstls.png'
 
 const landingpage2 = () => {
   return (
+    <>
     <div className='lp-main-div'>
         <div className='art-div'>
         <Image 
@@ -35,6 +36,7 @@ const landingpage2 = () => {
             </Link>
         </div>
     </div>
+    </>
   )
 }
 
