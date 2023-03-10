@@ -308,6 +308,8 @@ a {
 
 .art {
   transform: scale(1);
+  width: 700px;
+  height: 700px;
 }
 
 .lp-main-div {
@@ -328,7 +330,7 @@ a {
 .lp-btns-div {
   display: flex;
   flex-direction: row;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .lp-btn {
@@ -435,12 +437,15 @@ a {
 
 .art {
   transform: scale(0.5);
+  width: 500px;
+  height: 500px;
+
 }
 
 .lp-btns-div {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 }

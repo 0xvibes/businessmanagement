@@ -10,8 +10,8 @@ const landingpage2 = () => {
         <Image 
         className='art'
         src={Art}
-        width={700}
-        height={700}
+        // width={700}
+        // height={700}
         />
         </div>
 
