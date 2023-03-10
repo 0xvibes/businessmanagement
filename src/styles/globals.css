@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 :root {
   --max-width: 1100px;
@@ -305,6 +306,37 @@ a {
   box-shadow: 1px 5px 10px #000000;
 }
 
+.lp-main-div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #dafffa;
+}
+
+.art-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lp-btns-div {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.lp-btn {
+  width: 7rem;
+  height: 2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-family: 'Fredoka One';
+  border-radius: 0px;
+  border: solid 0.2px #000;
+}
+
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -388,6 +420,20 @@ a {
   cursor: pointer;
   /* flex-basis: calc(50% - 20px); */
   /* box-sizing: border-box; */
+}
+
+.art-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  transform: scale(0.5);
+}
+
+.lp-btns-div {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 }
 
 }
