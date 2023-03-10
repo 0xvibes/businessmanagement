@@ -348,13 +348,13 @@ a {
 }
 
 .lp-btn-special {
-  width: 10rem;
-  height: 3rem;
+  width: 7rem;
+  height: 2rem;
   margin: 0.5rem;
   cursor: pointer;
   /* font-family: 'Fredoka One'; */
   border-radius: 0px;
-  border: solid 2px #000;
+  border: solid 1px #000;
   font-family: 'Silkscreen', cursive;
   font-weight: bold;
   text-decoration: underline;
@@ -471,6 +471,19 @@ a {
   flex-direction: column;
   margin: 0.5rem;
   
+}
+
+.lp-btn-special {
+  width: 10rem;
+  height: 3rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  /* font-family: 'Fredoka One'; */
+  border-radius: 0px;
+  border: solid 1px #000;
+  font-family: 'Silkscreen', cursive;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 }
