@@ -107,6 +107,108 @@ a {
   text-decoration: none;
 }
 
+.desktop-background {
+  height: 100vh;
+  background-color: #363636;
+  z-index: -1;
+}
+
+.desktop-nav {
+  height: 7vh;
+  background: #363636;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  align-content: space-around;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.desktop-nav-div {
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  align-content: space-around;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  width: 50vw;
+  background: #363636;
+}
+
+.desktop-logo {
+  margin: auto;
+  padding: auto;
+  z-index: 100;
+}
+
+.desktop-nav-links {
+  margin: auto;
+  padding: auto;
+  z-index: 100;
+}
+
+.desktop-hero-layout {
+  display: flex;
+  flex-direction: row;
+  height: 93vh;
+  align-items: center;
+}
+
+.desktop-hero-text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  /* height: 93vh; */
+  /* margin: auto;
+  padding: auto; */
+  width: 50vw;
+  height: auto;
+}
+
+.desktop-hero-h1 {
+  margin: 2rem;
+  font-size: 96px;
+}
+
+.desktop-hero-p {
+  margin: 1rem;
+  font-size: xx-large;
+}
+
+.desktop-hero-button {
+  margin: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.desktop-hero-image {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 93vh;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  height: auto;
+  z-index: 1;
+  /* padding-bottom: 5rem; */
+}
+
+.album-image-b {
+  height: 50vw;
+  width: 50vw;
+  
+}
+
 .main-div {
   display: flex;
   flex-direction: column;
@@ -382,6 +484,79 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.figma-background {
+  background: #FFB0B0;
+  width: 100%;
+  height: 100vh;
+}
+
+.figma-desktop-nav {
+  /* background: #DC7F7F;
+  width: 100%;
+  height: 5rem; */
+  background: #DC7F7F;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  align-content: space-evenly;
+  align-self: auto;
+  padding: auto;
+  position: sticky;
+  /* position: fixed; */
+}
+
+.figma-nav-links {
+  padding: auto;
+  margin: auto;
+
+}
+
+.figma-nav-links-btn1 {
+  background: #48a2f7;
+  height: auto;
+  width: auto;
+  padding: 1rem;
+
+  margin: auto;
+}
+
+.figma-nav-links-btn2 {
+  background: #6ab3f8;
+  height: auto;
+  width: auto;
+  padding: 1rem;
+
+  margin: auto;
+}
+
+.figma-hero-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.figma-hero-sectiona {
+  background: #F49E9E;
+  border-radius: 22px;
+  height: 85vh;
+  width: 40vw;
+  padding: auto;
+  margin: 2rem;
+}
+
+.figma-hero-sectionb {
+  background: #F49E9E;
+  border-radius: 22px;
+  height: 85vh;
+  width: 40vw;
+  padding: auto;
+  margin: 2rem;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -389,6 +564,97 @@ a {
 }
 
 @media (max-width: 700px) {
+
+  .desktop-hero-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .desktop-hero-image {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .album-image-b {
+    height: auto;
+    width: 95vw;
+  }
+
+  .desktop-hero-h1 {
+    font-size: xx-large;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+
+  .desktop-hero-p {
+    font-size: large;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+
+  .figma-hero-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .figma-desktop-nav {
+    background: #DC7F7F;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    align-content: space-evenly;
+    align-self: auto;
+    padding: auto;
+    margin: auto;
+  }
+
+  .figma-nav-links {
+    padding: auto;
+    margin: auto;
+  }
+
+  .figma-nav-links-btn1 {
+    background: #48a2f7;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+
+    margin: auto;
+  }
+
+  .figma-nav-links-btn2 {
+    background: #6ab3f8;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+
+    margin: auto;
+  }
+
+  .figma-hero-sectiona {
+    background: #F49E9E;
+    border-radius: 22px;
+    height: 40vh;
+    width: 85vw;
+    padding: 2.5vh;
+    margin: 2.5vh;
+  }
+
+  .figma-hero-sectionb {
+    background: #F49E9E;
+    border-radius: 22px;
+    height: 40vh;
+    width: 85vw;
+    padding: 2.5vh;
+    margin: 2.5vh;
+  }
 
 .main-div {
   display: flex;
