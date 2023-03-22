@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Img from '../images/product.png'
-import styles from '../styles/Features.module.css'
 
 const lpFeatureCards = () => {
   return (
