@@ -17,15 +17,23 @@ const trad = () => {
               <button className='main-buttons'>Music</button>
               </Link>
               <div className='row'>
-              <p className='category-details'>Earned:</p>
-                <p className='category-input-green'>$5400</p>
+              <p className='category-details'>Hours Spent:</p>
+                <p className='category-input-green'>0</p>
                 </div>
               <div className='row'>
-              <p className='category-details'>Spent:</p>
+              <p className='category-details'>Works Produced:</p>
                 <p className='category-input-red'>$5400</p>
                 </div>
               <div className='row'>
-              <p className='category-details'>Incoming:</p>
+              <p className='category-details'>Works Published:</p>
+                <p className='category-input-green'>$5400</p>
+                </div>
+              <div className='row'>
+              <p className='category-details'>Value Acquired</p>
+                <p className='category-input-green'>$5400</p>
+                </div>
+              <div className='row'>
+              <p className='category-details'>Followers Gained</p>
                 <p className='category-input-green'>$5400</p>
                 </div>
             </div>

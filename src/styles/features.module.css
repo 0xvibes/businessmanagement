@@ -1,0 +1,41 @@
+.feature-cards {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #ffa1a1;
+  }
+  
+  .feature-card {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+  
+  .feature-cardb {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+  
+  .feature-icon {
+    height: 400px;
+    width: 400px;
+  }
+  
+  .feature-image {
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .feature-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+  }
