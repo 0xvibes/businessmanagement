@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from '../lp-components2/lpNav.js'
 import Hero from '../lp-components2/lpHero.js'
 import Hero2 from '../lp-components2/lpHero2.js'
 import Hero3 from '../lp-components2/lpHero3.js'
@@ -11,6 +12,7 @@ const lp2 = () => {
     <div className='lp-background'>
         {/* <Hero3 />
         <Hero2 /> */}
+        <Nav />
         <Hero />
         {/* <SubHero />
         <Features />

@@ -111,6 +111,60 @@ a {
   text-decoration: none;
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Nav~~~~~~~~~~~~~~~~~~~~~~~ CSS */
+
+.navbar {
+  background: #0e0e0e;
+  height: 80px;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  align-items: center;
+  z-index: 30;
+}
+
+.menubar {
+  height: 50px;
+  width: 50px;
+  margin-left: 1rem;
+}
+
+.nav-logo {
+  font-family: 'Poppins';
+}
+
+.nav-button {
+  background: linear-gradient(#ad1f96, #ff2fba);
+  cursor: pointer;
+  border-radius: 25px;
+  border: solid 0px #000;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #fff;
+  font-size: large;
+  width: 12rem;
+  height: auto;
+  padding: 1rem;
+  margin-right: 1rem;
+  filter: drop-shadow(0px 0px 10px #ef44ff);
+  animation: buttonglow 3s ease-in-out infinite;
+}
+
+@keyframes buttonglow {
+  0% {
+    filter: drop-shadow(0px 0px 7px #ef44ff);
+  }
+  50% {
+    filter: drop-shadow(0px 0px 10px #a61eb3);
+  }
+
+  100% {
+    filter: drop-shadow(0px 0px 7px #ef44ff);
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Nav~~~~~~~~~~~~~~~~~~~~~~~ CSS */
 
 
 /* ~~~~~~~~~~~~~~~~~~~~ LP2 css ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -278,7 +332,7 @@ a {
     flex-direction: column;
     background: #0e0e0e;
     /* background: linear-gradient(#0e0e0e, #252525); */
-    height: 100vh;
+    height: max-content;
     width: 100vw;
     align-items: center;
     text-align: center;
