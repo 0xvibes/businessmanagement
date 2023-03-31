@@ -15,8 +15,8 @@ const lpHero = () => {
             />
         </div>
         <div className='hero-text2'>
-            <h3 className='lp-h3-2'>sub-headline niggaaaa</h3>
-            <h1 className='lp-h1-2'>Make It Enough</h1>
+            <h3 className='lp-h3-2'>PSYOP GAMES PRESENTS</h3>
+            <h1 className='lp-h1-2'>Pixel Shiba</h1>
             <div className='lp-button-div-2'>
             <button className='lp-button-2'>Go</button>
             <button className='lp-button2-2'>Stay</button>
