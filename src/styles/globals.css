@@ -427,13 +427,13 @@ a {
   }
 
   .lp-h3-2 {
-    font-family: 'Poppins';
+    /* font-family: 'Silkscreen'; */
     font-weight: 200;
     margin: 0.25rem;
     font-size: 1.25em;  }
 
   .lp-h1-2 {
-    font-family: 'Poppins';
+    font-family: 'Press Start 2P';
     font-weight: 700;
     font-size: 2.5em;
     margin: 1rem;
