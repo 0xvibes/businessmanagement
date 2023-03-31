@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import P from '../images/product.png'
+import P from '../images/dog-test.gif'
 import Tw from '../images/tw.png'
 import Tg from '../images/tg.png'
 import Ig from '../images/ig.png'
