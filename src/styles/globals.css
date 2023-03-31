@@ -5,8 +5,9 @@
 
 @font-face {
   font-family: '8-bit';
-  src: url('../fonts/8-bit-pusab-webfont.woff');
-  src: url('../fonts/8-bit-pusab-webfont.woff2');
+  src: url('../fonts/8-bit-pusab.ttf');
+  /* src: url('../fonts/8-bit-pusab-webfont.woff');
+  src: url('../fonts/8-bit-pusab-webfont.woff2'); */
   /* font-weight: 400; */
   font-style: normal;
   }
