@@ -395,10 +395,6 @@ a {
 
 @media (max-width: 912px) {
 
-  .nav-logo {
-    display: none;
-  }
-
   .hero-lp2 {
     display: flex;
     flex-direction: column;

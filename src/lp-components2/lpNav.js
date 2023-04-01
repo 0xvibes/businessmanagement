@@ -10,9 +10,9 @@ const lpNav = () => {
             src={menubar}
         />
         <div className='nav-logo'>
-            <h1 className='nav-logo-text'>Logo</h1>
+            <h1 className='nav-logo-text'>LOGO</h1>
         </div>
-        <button className='nav-button'>Play Game</button>
+        <button className='nav-button'>Join Whitelist</button>
 
     </div>
   )
